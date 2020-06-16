@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录界面</title>
+</head>
+<body>
+
+
+<form action="login" method="post">
+
+<div class="login" style="text-align: center;">
+<h3>login</h3>
+<h3 th:text="${msg}" style="color: red"></h3>
+username:<input type="text" name="username"/><br/>
+password:<input type="password" name="password"><br/>
+<input type="submit" value="登录">
+</div>
+</form>
+</body>
+</html>
